@@ -1,4 +1,4 @@
-async function exportSelectedConversations(selectedIds: string[]) {
+export async function exportSelectedConversations(selectedIds: string[]) {
     try {
         const organizationId = await getCookie();
         if (!organizationId) {

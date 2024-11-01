@@ -66,6 +66,7 @@ async function exportConversations() {
 }
 
 async function exportSelectedConversations(selectedIds: string[]) {
+    // Remove or rename this function to fix the duplicate implementation error.
     try {
         const organizationId = await getCookie();
         if (!organizationId) {
