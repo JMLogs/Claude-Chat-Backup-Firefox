@@ -1,11 +1,3 @@
-/// <reference types="firefox-webext-browser" />
-
-async function getOrganizationId(): Promise<string> {
-    // Mock implementation, replace with actual logic
-    return 'mock-organization-id';
-}
-
-
 document.addEventListener('DOMContentLoaded', async () => {
     const conversationList = document.getElementById('conversationList');
     const exportSelectedBtn = document.getElementById('exportSelectedBtn');

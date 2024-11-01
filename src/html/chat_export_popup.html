@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Claude Chat Backup</title>
     <style>
         body {
@@ -41,6 +43,10 @@
         <button id="exportConversationsBtn">Backup Conversations</button>
     </li>
 </ul>
+<ul id="conversationList" class="function-list">
+    <!-- Conversation checkboxes will be dynamically populated here -->
+</ul>
+<button id="exportSelectedBtn">Backup Selected Conversations</button>
 <script src="../ui/chat_export_popup.js"></script>
 </body>
 </html>
